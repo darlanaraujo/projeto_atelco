@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ccc;
+	font-family: verdana;
+	font-size: 100%;
+
+}
+
+.container{
+	width: 1200px;
+    height: auto;
+    max-height: 1000px;
+    min-height: 500px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+	box-sizing: border-box; /*Comando que coloca o conteudo em um box */
+  	padding: 10px;
+}
+
+nav{
+	width: 220px;
+    min-height: 500px;
+	height: auto;
+	background-color: #008080;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}
+
+img{
+	width: 200px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+section{
+	background-color: #fff;
+	color: #333;
+	width: 870px;
+	min-height: 500px;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+	border-radius: 5px;
+
+}
+
+.rodape{
+	margin: 10px;
+	background-position: center;
+	background-color: black;
+	margin-top: 5px;
+	
+	height: 30px;
+	color: #fff;
+	clear: both;
+	border-radius: 3px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: black;
+}
+
+p{
+	margin-left: 300px;
+	font-size: 80%;
+	padding: 5px;
+
+}
+
+form{
+	margin-left: 10px;
+	height: auto;
+    
+    
+}
+
+label{
+	font-size: 80%;
+}
+
+ul.menu{
+	list-style-type: none;
+	cursor: pointer;
+}
+
+ul.menu li{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	background-color: #5F9EA0;
+	margin-top: 2px;
+}
+
+ul.menu li:hover{
+	background-color: #20B2AA;
+}
+
+
+.btn{
+	font-size: 90%;
+	width: 120px;
+	padding: 3px;
+	background-color: #008080;
+	color: #fff;
+	border: 2px solid #008080;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #5F9EA0;
+}
+
+.salvar{
+	background-image: url(../imagens/icones/salvar.png);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-size: 20px;
+}
+
+.limpar{
+	background-image: url(../imagens/icones/limpar.png);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-size: 20px;
+}
+
+.excluir{
+	background-image: url(../imagens/icones/excluir.png);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-size: 20px;
+}
+
+.editar{
+	background-image: url(../imagens/icones/editar.png);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-size: 20px;
+}
+
+.campo{
+	width: 400px;
+	height: 30px;
+	border-radius: 3px;
+	margin-top: 5px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+
+
+article{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #66CDAA;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
